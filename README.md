@@ -4,16 +4,16 @@
 
 ## Δομή Αρχείων
 
-Archive/
-├── data/               # Φάκελος αποθήκευσης των συνόλων δεδομένων (datasets)
-├── results/            # Τα αποτελέσματα απο όλα τα πειράματα
-├── lexi_sync.py        # Η κεντρική κλάση του συστήματος και η ροή εκτέλεσης
-├── trainer.py          # Custom trainer για την εκπαίδευση του συστήματος
-├── blocker.py          # Κλάση για τη δημιουργία του ANNS Blocker (με τη χρήση FAISS)
-├── ablation.py         # Εκτέλεση του Ablation Study για τον μειωτικό συντελεστή w1
-├── bi_encoder.py       # Υλοποίηση και εκτέλεση του Bi-Encoder
-├── timing_benchmark.py # Script για την ανάλυση κόστους/χρόνου
-└── requirements.txt    # Οι απαραίτητες βιβλιοθήκες και εξαρτήσεις
+📂 Archive/
+📁 data/ — Φάκελος αποθήκευσης των συνόλων δεδομένων (datasets)
+📁 results/ — Τα αποτελέσματα από όλα τα πειράματα
+📄 lexi_sync.py — Η κεντρική κλάση του συστήματος και η ροή εκτέλεσης
+📄 trainer.py — Custom trainer για την εκπαίδευση του συστήματος
+📄 blocker.py — Κλάση για τη δημιουργία του ANNS Blocker (με τη χρήση FAISS)
+📄 ablation.py — Εκτέλεση του Ablation Study για τον μειωτικό συντελεστή w1
+📄 bi_encoder.py — Υλοποίηση και εκτέλεση του Bi-Encoder
+📄 timing_benchmark.py — Script για την ανάλυση κόστους/χρόνου
+📄 requirements.txt — Οι απαραίτητες βιβλιοθήκες και εξαρτήσεις
 
 ## Προαπαιτούμενα & Εγκατάσταση (Requirements)
 - Αποσυμπίεση του Archive.

@@ -1,0 +1,17 @@
+datasets
+ipywidgets
+matplotlib
+torch
+transformers>=4.40.0
+accelerate>=1.1.0
+sentence-transformers
+scikit-learn
+pandas
+numpy
+pyyaml
+tqdm
+tiktoken
+sentencepiece
+protobuf
+sentence_transformers
+faiss-cpu

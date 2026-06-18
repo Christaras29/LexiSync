@@ -1,0 +1,62 @@
+ENTITY RESOLUTION REPORT (Model: microsoft/deberta-v3-base)
+============================================================
+
+>>> DATASET: DBLP
+Optimal Threshold (tuned on validation): 0.80
+Validation F1 (during tuning): 0.9491
+
+Test Confusion Matrix:
+[[4611   61]
+ [  59 1011]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9874    0.9869    0.9872      4672
+           1     0.9431    0.9449    0.9440      1070
+
+    accuracy                         0.9791      5742
+   macro avg     0.9652    0.9659    0.9656      5742
+weighted avg     0.9791    0.9791    0.9791      5742
+
+------------------------------------------------------------
+
+>>> DATASET: AMAZON
+Optimal Threshold (tuned on validation): 0.45
+Validation F1 (during tuning): 0.7269
+
+Test Confusion Matrix:
+[[2014   45]
+ [  62  172]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9701    0.9781    0.9741      2059
+           1     0.7926    0.7350    0.7627       234
+
+    accuracy                         0.9533      2293
+   macro avg     0.8814    0.8566    0.8684      2293
+weighted avg     0.9520    0.9533    0.9526      2293
+
+------------------------------------------------------------
+
+>>> DATASET: WALMART
+Optimal Threshold (tuned on validation): 0.25
+Validation F1 (during tuning): 0.8557
+
+Test Confusion Matrix:
+[[1827   29]
+ [  27  166]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9854    0.9844    0.9849      1856
+           1     0.8513    0.8601    0.8557       193
+
+    accuracy                         0.9727      2049
+   macro avg     0.9184    0.9222    0.9203      2049
+weighted avg     0.9728    0.9727    0.9727      2049
+
+------------------------------------------------------------

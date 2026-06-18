@@ -1,0 +1,21 @@
+============================================================
+SUMMARY OF RESULTS (WALMART-AMAZON Test Set)
+============================================================
+Method          | Precision  | Recall     | F1-Score  
+-------------------------------------------------------
+Zero-Shot       | 0.1607     | 0.7461     | 0.2645    
+Fine-Tuned (30%) | 0.7143     | 0.7513     | 0.7323    
+============================================================
+
+--- DETAILED METRICS ---
+Zero-Shot Optimal Threshold (from Valid): 0.80
+Fine-Tuned Optimal Threshold (from Valid): 0.75
+
+--- CONFUSION MATRICES (Test Set) ---
+Zero-Shot Confusion Matrix:
+[[1104  752]
+ [  49  144]]
+
+Fine-Tuned Confusion Matrix:
+[[1798   58]
+ [  48  145]]

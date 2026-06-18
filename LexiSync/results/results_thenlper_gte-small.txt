@@ -1,0 +1,62 @@
+ENTITY RESOLUTION REPORT (Model: thenlper/gte-small)
+============================================================
+
+>>> DATASET: DBLP
+Optimal Threshold (tuned on validation): 0.20
+Validation F1 (during tuning): 0.9393
+
+Test Confusion Matrix:
+[[4609   63]
+ [  61 1009]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9869    0.9865    0.9867      4672
+           1     0.9412    0.9430    0.9421      1070
+
+    accuracy                         0.9784      5742
+   macro avg     0.9641    0.9648    0.9644      5742
+weighted avg     0.9784    0.9784    0.9784      5742
+
+------------------------------------------------------------
+
+>>> DATASET: AMAZON
+Optimal Threshold (tuned on validation): 0.35
+Validation F1 (during tuning): 0.7076
+
+Test Confusion Matrix:
+[[1989   70]
+ [  58  176]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9717    0.9660    0.9688      2059
+           1     0.7154    0.7521    0.7333       234
+
+    accuracy                         0.9442      2293
+   macro avg     0.8436    0.8591    0.8511      2293
+weighted avg     0.9455    0.9442    0.9448      2293
+
+------------------------------------------------------------
+
+>>> DATASET: WALMART
+Optimal Threshold (tuned on validation): 0.20
+Validation F1 (during tuning): 0.8250
+
+Test Confusion Matrix:
+[[1809   47]
+ [  37  156]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9800    0.9747    0.9773      1856
+           1     0.7685    0.8083    0.7879       193
+
+    accuracy                         0.9590      2049
+   macro avg     0.8742    0.8915    0.8826      2049
+weighted avg     0.9600    0.9590    0.9595      2049
+
+------------------------------------------------------------

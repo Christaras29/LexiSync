@@ -1,0 +1,62 @@
+ENTITY RESOLUTION REPORT (Model: intfloat/e5-small-v2)
+============================================================
+
+>>> DATASET: DBLP
+Optimal Threshold (tuned on validation): 0.50
+Validation F1 (during tuning): 0.9401
+
+Test Confusion Matrix:
+[[4619   53]
+ [  82  988]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9826    0.9887    0.9856      4672
+           1     0.9491    0.9234    0.9360      1070
+
+    accuracy                         0.9765      5742
+   macro avg     0.9658    0.9560    0.9608      5742
+weighted avg     0.9763    0.9765    0.9764      5742
+
+------------------------------------------------------------
+
+>>> DATASET: AMAZON
+Optimal Threshold (tuned on validation): 0.70
+Validation F1 (during tuning): 0.7280
+
+Test Confusion Matrix:
+[[1993   66]
+ [  59  175]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9712    0.9679    0.9696      2059
+           1     0.7261    0.7479    0.7368       234
+
+    accuracy                         0.9455      2293
+   macro avg     0.8487    0.8579    0.8532      2293
+weighted avg     0.9462    0.9455    0.9458      2293
+
+------------------------------------------------------------
+
+>>> DATASET: WALMART
+Optimal Threshold (tuned on validation): 0.75
+Validation F1 (during tuning): 0.7904
+
+Test Confusion Matrix:
+[[1810   46]
+ [  29  164]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9842    0.9752    0.9797      1856
+           1     0.7810    0.8497    0.8139       193
+
+    accuracy                         0.9634      2049
+   macro avg     0.8826    0.9125    0.8968      2049
+weighted avg     0.9651    0.9634    0.9641      2049
+
+------------------------------------------------------------

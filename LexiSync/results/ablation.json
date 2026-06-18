@@ -1,0 +1,67 @@
+{
+  "methodology": "full fine-tuning with 50% stratified sub-sampling",
+  "w1_grid": [
+    0.3,
+    0.5,
+    1.0
+  ],
+  "results": {
+    "0.3": {
+      "dblp": {
+        "F1-Score": 0.9404,
+        "Optimal Threshold": 0.9,
+        "Validation F1": 0.9487
+      },
+      "amazon": {
+        "F1-Score": 0.7353,
+        "Optimal Threshold": 0.2,
+        "Validation F1": 0.7171
+      },
+      "walmart": {
+        "F1-Score": 0.864,
+        "Optimal Threshold": 0.8,
+        "Validation F1": 0.8556
+      }
+    },
+    "0.5": {
+      "dblp": {
+        "F1-Score": 0.9456,
+        "Optimal Threshold": 0.9,
+        "Validation F1": 0.9506
+      },
+      "amazon": {
+        "F1-Score": 0.7102,
+        "Optimal Threshold": 0.5,
+        "Validation F1": 0.7379
+      },
+      "walmart": {
+        "F1-Score": 0.8733,
+        "Optimal Threshold": 0.9,
+        "Validation F1": 0.8668
+      }
+    },
+    "1.0": {
+      "dblp": {
+        "F1-Score": 0.9441,
+        "Optimal Threshold": 0.9,
+        "Validation F1": 0.9473
+      },
+      "amazon": {
+        "F1-Score": 0.725,
+        "Optimal Threshold": 0.2,
+        "Validation F1": 0.7316
+      },
+      "walmart": {
+        "F1-Score": 0.877,
+        "Optimal Threshold": 0.9,
+        "Validation F1": 0.8542
+      }
+    }
+  },
+  "global_averages": {
+    "0.3": 0.8465666666666666,
+    "0.5": 0.8430333333333334,
+    "1.0": 0.8487
+  },
+  "best_w1": 1.0
+}

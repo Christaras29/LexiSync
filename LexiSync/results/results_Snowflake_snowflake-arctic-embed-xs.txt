@@ -1,0 +1,62 @@
+ENTITY RESOLUTION REPORT (Model: Snowflake/snowflake-arctic-embed-xs)
+============================================================
+
+>>> DATASET: DBLP
+Optimal Threshold (tuned on validation): 0.90
+Validation F1 (during tuning): 0.9347
+
+Test Confusion Matrix:
+[[4599   73]
+ [  81  989]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9827    0.9844    0.9835      4672
+           1     0.9313    0.9243    0.9278      1070
+
+    accuracy                         0.9732      5742
+   macro avg     0.9570    0.9543    0.9557      5742
+weighted avg     0.9731    0.9732    0.9731      5742
+
+------------------------------------------------------------
+
+>>> DATASET: AMAZON
+Optimal Threshold (tuned on validation): 0.35
+Validation F1 (during tuning): 0.7118
+
+Test Confusion Matrix:
+[[1960   99]
+ [  57  177]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9717    0.9519    0.9617      2059
+           1     0.6413    0.7564    0.6941       234
+
+    accuracy                         0.9320      2293
+   macro avg     0.8065    0.8542    0.8279      2293
+weighted avg     0.9380    0.9320    0.9344      2293
+
+------------------------------------------------------------
+
+>>> DATASET: WALMART
+Optimal Threshold (tuned on validation): 0.70
+Validation F1 (during tuning): 0.7753
+
+Test Confusion Matrix:
+[[1791   65]
+ [  37  156]]
+
+Test Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9798    0.9650    0.9723      1856
+           1     0.7059    0.8083    0.7536       193
+
+    accuracy                         0.9502      2049
+   macro avg     0.8428    0.8866    0.8630      2049
+weighted avg     0.9540    0.9502    0.9517      2049
+
+------------------------------------------------------------

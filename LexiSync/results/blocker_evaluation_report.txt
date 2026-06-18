@@ -1,0 +1,11 @@
+==================================================
+BLOCKER EVALUATION
+==================================================
+True matches (train+valid+test):  962
+Candidates:             25,118
+Matches retrieved:      894 / 962
+Matches missed:         68
+Pairs Completeness:     0.9293 (92.93%)
+Pairs Quality:          0.0356 (3.56%)
+Reduction Ratio:        0.9996 (99.96%)
+==================================================

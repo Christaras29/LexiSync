@@ -1,0 +1,158 @@
+{
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "DBLP-Scholar": {
+      "n_source": 2616,
+      "n_target": 64263,
+      "embedding_time_sec": 47.562,
+      "blocking_time_sec": 0.2068,
+      "matching_time_sec": 0.605,
+      "n_matching_pairs": 300
+    },
+    "Amazon-Google": {
+      "n_source": 1363,
+      "n_target": 3226,
+      "embedding_time_sec": 2.613,
+      "blocking_time_sec": 0.0223,
+      "matching_time_sec": 0.525,
+      "n_matching_pairs": 300
+    },
+    "Walmart-Amazon": {
+      "n_source": 2554,
+      "n_target": 22074,
+      "embedding_time_sec": 21.411,
+      "blocking_time_sec": 0.0812,
+      "matching_time_sec": 0.624,
+      "n_matching_pairs": 300
+    }
+  },
+  "thenlper/gte-small": {
+    "DBLP-Scholar": {
+      "n_source": 2616,
+      "n_target": 64263,
+      "embedding_time_sec": 90.171,
+      "blocking_time_sec": 0.1835,
+      "matching_time_sec": 1.306,
+      "n_matching_pairs": 300
+    },
+    "Amazon-Google": {
+      "n_source": 1363,
+      "n_target": 3226,
+      "embedding_time_sec": 4.854,
+      "blocking_time_sec": 0.0131,
+      "matching_time_sec": 0.969,
+      "n_matching_pairs": 300
+    },
+    "Walmart-Amazon": {
+      "n_source": 2554,
+      "n_target": 22074,
+      "embedding_time_sec": 42.493,
+      "blocking_time_sec": 0.0712,
+      "matching_time_sec": 1.281,
+      "n_matching_pairs": 300
+    }
+  },
+  "intfloat/e5-small-v2": {
+    "DBLP-Scholar": {
+      "n_source": 2616,
+      "n_target": 64263,
+      "embedding_time_sec": 95.829,
+      "blocking_time_sec": 0.2095,
+      "matching_time_sec": 1.381,
+      "n_matching_pairs": 300
+    },
+    "Amazon-Google": {
+      "n_source": 1363,
+      "n_target": 3226,
+      "embedding_time_sec": 5.349,
+      "blocking_time_sec": 0.0156,
+      "matching_time_sec": 1.007,
+      "n_matching_pairs": 300
+    },
+    "Walmart-Amazon": {
+      "n_source": 2554,
+      "n_target": 22074,
+      "embedding_time_sec": 42.507,
+      "blocking_time_sec": 0.0888,
+      "matching_time_sec": 1.328,
+      "n_matching_pairs": 300
+    }
+  },
+  "BAAI/bge-small-en-v1.5": {
+    "DBLP-Scholar": {
+      "n_source": 2616,
+      "n_target": 64263,
+      "embedding_time_sec": 98.311,
+      "blocking_time_sec": 0.204,
+      "matching_time_sec": 1.368,
+      "n_matching_pairs": 300
+    },
+    "Amazon-Google": {
+      "n_source": 1363,
+      "n_target": 3226,
+      "embedding_time_sec": 5.256,
+      "blocking_time_sec": 0.0132,
+      "matching_time_sec": 1.059,
+      "n_matching_pairs": 300
+    },
+    "Walmart-Amazon": {
+      "n_source": 2554,
+      "n_target": 22074,
+      "embedding_time_sec": 44.793,
+      "blocking_time_sec": 0.0702,
+      "matching_time_sec": 1.323,
+      "n_matching_pairs": 300
+    }
+  },
+  "Snowflake/snowflake-arctic-embed-xs": {
+    "DBLP-Scholar": {
+      "n_source": 2616,
+      "n_target": 64263,
+      "embedding_time_sec": 59.715,
+      "blocking_time_sec": 0.1708,
+      "matching_time_sec": 1.173,
+      "n_matching_pairs": 300
+    },
+    "Amazon-Google": {
+      "n_source": 1363,
+      "n_target": 3226,
+      "embedding_time_sec": 4.359,
+      "blocking_time_sec": 0.0119,
+      "matching_time_sec": 1.775,
+      "n_matching_pairs": 300
+    },
+    "Walmart-Amazon": {
+      "n_source": 2554,
+      "n_target": 22074,
+      "embedding_time_sec": 37.553,
+      "blocking_time_sec": 0.1024,
+      "matching_time_sec": 0.719,
+      "n_matching_pairs": 300
+    }
+  },
+  "microsoft/deberta-v3-base": {
+    "DBLP-Scholar": {
+      "n_source": 2616,
+      "n_target": 64263,
+      "embedding_time_sec": 649.394,
+      "blocking_time_sec": 0.1838,
+      "matching_time_sec": 7.342,
+      "n_matching_pairs": 300
+    },
+    "Amazon-Google": {
+      "n_source": 1363,
+      "n_target": 3226,
+      "embedding_time_sec": 34.207,
+      "blocking_time_sec": 0.0201,
+      "matching_time_sec": 4.758,
+      "n_matching_pairs": 300
+    },
+    "Walmart-Amazon": {
+      "n_source": 2554,
+      "n_target": 22074,
+      "embedding_time_sec": 273.453,
+      "blocking_time_sec": 0.1615,
+      "matching_time_sec": 7.807,
+      "n_matching_pairs": 300
+    }
+  }
+}
